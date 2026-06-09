@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cerca — Monitoreo remoto para adultos mayores</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="nav">
+    <a href="#" class="nav-logo">
+      <img src="assets/logo.jpeg" alt="Cerca" class="nav-logo-img" />
+    </a>
+    <ul class="nav-links">
+      <li><a href="#como-funciona">Cómo funciona</a></li>
+      <li><a href="#para-quien">Para quién</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+    <a href="#waitlist" class="btn btn-nav">Quiero saber más</a>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <span class="badge">Monitoreo remoto para adultos mayores</span>
+      <h1 class="hero-title">Estar <em>cerca</em>,<br>aunque no estés presente</h1>
+      <p class="hero-sub">Una plataforma digital que conecta a los adultos mayores con sus familias y médicos, para vivir con autonomía y tranquilidad.</p>
+      <div class="hero-buttons">
+        <a href="#waitlist" class="btn btn-primary">Quiero unirme</a>
+        <a href="#como-funciona" class="btn btn-ghost">Cómo funciona</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CÓMO FUNCIONA -->
+  <section class="section" id="como-funciona">
+    <div class="container">
+      <p class="section-label">Funcionalidades</p>
+      <h2 class="section-title">Todo lo que necesitás en un lugar</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon icon-blue">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          </div>
+          <h3 class="feature-title">Monitoreo en tiempo real</h3>
+          <p class="feature-desc">Seguimiento de signos vitales y actividad desde cualquier lugar, en cualquier momento.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon icon-yellow">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+          </div>
+          <h3 class="feature-title">Alertas inteligentes</h3>
+          <p class="feature-desc">Notificaciones automáticas ante cambios relevantes en la salud del adulto mayor.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon icon-teal">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3 class="feature-title">Conexión familia-médico</h3>
+          <p class="feature-desc">Panel compartido para que todos estén alineados e informados en todo momento.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PARA QUIÉN -->
+  <section class="section section-alt" id="para-quien">
+    <div class="container">
+      <p class="section-label">Para quién</p>
+      <h2 class="section-title">Diseñado para todos los que cuidan</h2>
+      <div class="audiences-grid">
+        <div class="audience-card audience-fam">
+          <span class="audience-tag tag-blue">Familias</span>
+          <h3 class="audience-title">Tranquilidad para los que cuidan desde lejos</h3>
+          <p class="audience-desc">Sabés cómo está tu familiar mayor en todo momento, sin invadir su independencia ni su privacidad.</p>
+        </div>
+        <div class="audience-card audience-med">
+          <span class="audience-tag tag-yellow">Profesionales de salud</span>
+          <h3 class="audience-title">Seguimiento continuo entre consultas</h3>
+          <p class="audience-desc">Accedé a datos reales de tus pacientes y actuá antes de que una situación se vuelva urgente.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WAITLIST -->
+  <section class="section section-cta" id="waitlist">
+    <div class="container container-narrow">
+      <h2 class="cta-title">Sé de los primeros en conocer Cerca</h2>
+      <p class="cta-sub">Dejanos tu mail y te avisamos cuando estemos disponibles.</p>
+      <form class="waitlist-form" onsubmit="handleSubmit(event)">
+        <input type="email" class="waitlist-input" placeholder="tu@mail.com" required />
+        <button type="submit" class="btn btn-primary">Anotarme</button>
+      </form>
+      <p class="waitlist-thanks" id="thanks-msg" style="display:none;">¡Gracias! Te avisamos pronto.</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="contacto">
+    <div class="container footer-inner">
+      <img src="assets/logo.jpeg" alt="Cerca" class="footer-logo" />
+      <p class="footer-copy">© 2025 Cerca · <a href="mailto:hola@cerca.com.ar">hola@cerca.com.ar</a></p>
+    </div>
+  </footer>
+
+  <script>
+    function handleSubmit(e) {
+      e.preventDefault();
+      document.querySelector('.waitlist-form').style.display = 'none';
+      document.getElementById('thanks-msg').style.display = 'block';
+    }
+
+    // Smooth scroll for nav links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) target.scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  </script>
+
+</body>
+</html>
