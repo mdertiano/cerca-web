@@ -127,7 +127,10 @@ ul {
 
 /* --- Hero --- */
 .hero {
-  background: var(--gray-bg);
+  background-color: #EDF4FA;
+  background-image: url('background-cerca.svg');
+  background-size: cover;
+  background-position: center;
   padding: 80px 40px 72px;
   border-bottom: 1px solid var(--border);
 }
