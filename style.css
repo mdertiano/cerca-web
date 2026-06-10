@@ -415,14 +415,20 @@ ul {
     text-align: center;
   }
   
-  .section-app-inner {
+  .section-app {
+  background: #EDF4FA;
+}
+
+.section-app-inner {
   display: flex;
   align-items: center;
-  gap: 64px;
+  justify-content: space-between;
+  gap: 48px;
 }
 
 .app-text {
   flex: 1;
+  max-width: 420px;
 }
 
 .app-desc {
@@ -434,17 +440,25 @@ ul {
 
 .app-visual {
   flex-shrink: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .app-phone {
-  width: 220px;
+  width: 240px;
   height: auto;
 }
 
 @media (max-width: 768px) {
   .section-app-inner {
     flex-direction: column;
+    align-items: center;
     text-align: center;
   }
+  .app-text {
+    max-width: 100%;
+  }
+}
+  
 }
 }
