@@ -128,7 +128,7 @@ ul {
 /* --- Hero --- */
 .hero {
   background-color: #EDF4FA;
-  background-image: url('background-cerca.svg');
+  background-image: url('assets/background-cerca.svg');
   background-size: cover;
   background-position: center;
   padding: 80px 40px 72px;
