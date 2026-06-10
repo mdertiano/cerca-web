@@ -414,4 +414,37 @@ ul {
     gap: 12px;
     text-align: center;
   }
+  
+  .section-app-inner {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+
+.app-text {
+  flex: 1;
+}
+
+.app-desc {
+  font-size: 16px;
+  color: var(--gray-muted);
+  line-height: 1.65;
+  margin-top: 16px;
+}
+
+.app-visual {
+  flex-shrink: 0;
+}
+
+.app-phone {
+  width: 220px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .section-app-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+}
 }

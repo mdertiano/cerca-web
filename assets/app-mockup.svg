@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="280" height="560" viewBox="0 0 280 560">
+  <defs>
+    <clipPath id="avatarClip">
+      <circle cx="58" cy="158" r="14"/>
+    </clipPath>
+  </defs>
+
+  <!-- Phone body -->
+  <rect x="10" y="10" width="260" height="540" rx="36" ry="36" fill="#f0f4f8" stroke="#d0d8e0" stroke-width="2"/>
+  <!-- Screen -->
+  <rect x="22" y="30" width="236" height="500" rx="26" ry="26" fill="#ffffff"/>
+  <!-- Notch -->
+  <rect x="100" y="30" width="80" height="18" rx="9" fill="#d0d8e0"/>
+
+  <!-- Status bar -->
+  <text x="36" y="64" font-family="sans-serif" font-size="11" fill="#aaa">9:41</text>
+  <text x="210" y="64" font-family="sans-serif" font-size="11" fill="#aaa">●●●</text>
+
+  <!-- Greeting -->
+  <text x="36" y="98" font-family="sans-serif" font-size="13" font-weight="600" fill="#2a2a2a">Hola, Josefina 👋</text>
+  <text x="36" y="114" font-family="sans-serif" font-size="10" fill="#aaa">Resumen de hoy</text>
+
+  <!-- Divider -->
+  <line x1="34" y1="126" x2="246" y2="126" stroke="#e8edf2" stroke-width="1"/>
+
+  <!-- Susana profile row — selected -->
+  <rect x="34" y="134" width="212" height="48" rx="10" fill="#EDF4FA" stroke="#c2dff0" stroke-width="1"/>
+
+  <!-- Foto de Susana en círculo -->
+  <image href="assets/susana-cuadrada.png" x="44" y="144" width="28" height="28" clip-path="url(#avatarClip)" preserveAspectRatio="xMidYMid slice"/>
+  <circle cx="58" cy="158" r="14" fill="none" stroke="#c2dff0" stroke-width="1"/>
+
+  <text x="80" y="154" font-family="sans-serif" font-size="12" font-weight="600" fill="#1a4a5c">Susana</text>
+  <text x="80" y="169" font-family="sans-serif" font-size="10" fill="#5a8fa8">68 años · activa hace 2 hs</text>
+  <text x="220" y="161" font-family="sans-serif" font-size="14" fill="#89C4E1">›</text>
+
+  <!-- Connector line -->
+  <line x1="58" y1="182" x2="58" y2="196" stroke="#c2dff0" stroke-width="1.5" stroke-dasharray="3,2"/>
+
+  <!-- Vitals section -->
+  <text x="36" y="210" font-family="sans-serif" font-size="10" fill="#aaa">Signos vitales · hace 18 min</text>
+
+  <!-- Vital cards row -->
+  <rect x="34" y="218" width="96" height="72" rx="10" fill="#F7FAFE" stroke="#e0eaf2" stroke-width="1"/>
+  <text x="50" y="238" font-family="sans-serif" font-size="9" fill="#aaa">Frec. cardíaca</text>
+  <text x="46" y="262" font-family="sans-serif" font-size="20" font-weight="600" fill="#2a2a2a">72</text>
+  <text x="74" y="262" font-family="sans-serif" font-size="9" fill="#aaa">bpm</text>
+  <circle cx="82" cy="278" r="4" fill="#89C4E1" opacity="0.6"/>
+  <circle cx="92" cy="278" r="4" fill="#89C4E1" opacity="0.3"/>
+  <circle cx="102" cy="278" r="4" fill="#89C4E1" opacity="0.15"/>
+
+  <rect x="138" y="218" width="108" height="72" rx="10" fill="#F7FAFE" stroke="#e0eaf2" stroke-width="1"/>
+  <text x="154" y="238" font-family="sans-serif" font-size="9" fill="#aaa">Presión arterial</text>
+  <text x="150" y="262" font-family="sans-serif" font-size="20" font-weight="600" fill="#2a2a2a">120</text>
+  <text x="180" y="262" font-family="sans-serif" font-size="12" fill="#aaa">/80</text>
+  <text x="154" y="278" font-family="sans-serif" font-size="9" fill="#7CBFB0">Normal</text>
+
+  <!-- Divider -->
+  <line x1="34" y1="304" x2="246" y2="304" stroke="#e8edf2" stroke-width="1"/>
+
+  <!-- Alert -->
+  <rect x="34" y="314" width="212" height="52" rx="10" fill="#FDF9EF" stroke="#f0d898" stroke-width="1"/>
+  <rect x="34" y="314" width="4" height="52" rx="2" fill="#E8B84B"/>
+  <text x="48" y="332" font-family="sans-serif" font-size="10" font-weight="600" fill="#7a5200">Recordatorio</text>
+  <text x="48" y="347" font-family="sans-serif" font-size="10" fill="#7a5200">Enalapril 10mg · 14:00 hs</text>
+  <text x="48" y="360" font-family="sans-serif" font-size="9" fill="#aaa">Pendiente</text>
+
+  <!-- Divider -->
+  <line x1="34" y1="378" x2="246" y2="378" stroke="#e8edf2" stroke-width="1"/>
+
+  <!-- Proximo turno -->
+  <text x="36" y="396" font-family="sans-serif" font-size="10" fill="#aaa">Próximo turno</text>
+  <text x="36" y="414" font-family="sans-serif" font-size="12" font-weight="600" fill="#2a2a2a">Dr. García · Cardiología</text>
+  <text x="36" y="430" font-family="sans-serif" font-size="10" fill="#5a8fa8">Jueves 19/06 · 10:30 hs</text>
+
+  <!-- Bottom nav -->
+  <rect x="22" y="468" width="236" height="62" rx="0" fill="#fff"/>
+  <line x1="22" y1="468" x2="258" y2="468" stroke="#e8edf2" stroke-width="1"/>
+  <circle cx="75" cy="499" r="12" fill="#EDF4FA"/>
+  <text x="69" y="504" font-family="sans-serif" font-size="12" fill="#89C4E1">⌂</text>
+  <circle cx="140" cy="499" r="14" fill="#89C4E1"/>
+  <text x="134" y="504" font-family="sans-serif" font-size="13" fill="#fff">♡</text>
+  <circle cx="205" cy="499" r="12" fill="#EDF4FA"/>
+  <text x="199" y="504" font-family="sans-serif" font-size="12" fill="#aaa">☰</text>
+</svg>
