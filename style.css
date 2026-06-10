@@ -414,8 +414,20 @@ ul {
     gap: 12px;
     text-align: center;
   }
-  
-  .section-app {
+
+  .section-app-inner {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .app-text {
+    max-width: 100%;
+  }
+}
+
+/* --- Sección App --- */
+.section-app {
   background: #EDF4FA;
 }
 
@@ -447,18 +459,4 @@ ul {
 .app-phone {
   width: 240px;
   height: auto;
-}
-
-@media (max-width: 768px) {
-  .section-app-inner {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  .app-text {
-    max-width: 100%;
-  }
-
-  
-}
 }
