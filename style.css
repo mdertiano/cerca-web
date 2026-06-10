@@ -80,9 +80,9 @@ ul {
 }
 
 .btn-ghost {
-  background: transparent;
-  color: var(--gray-muted);
-  border: 1px solid var(--border);
+  background: var(--blue);
+  color: #fff;
+  border: none;
 }
 
 .btn-nav {
